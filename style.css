@@ -1,0 +1,98 @@
+/
+
+head{
+	background: black;
+}
+body{
+background-color: lavenderblush;
+color: black;
+font-family: 'Helvetica', sans-serif;
+font-size: 15px;
+font-weight: lighter;
+}
+h1, h2, h3 {
+font-family: 'Helvetica', sans-serif;
+}
+h1{
+color: pink;
+font-weight: 300;
+letter-spacing: 6px;
+font-size: 32px;
+text-transform: uppercase;
+}
+h2 {
+color: pink;
+font-weight: 300;
+letter-spacing: 4px;
+font-size: 20px;
+text-transform: uppercase;
+}
+a {
+font-family: 'Helvetica', sans-serif;
+text-decoration: none;
+color: black;
+font-weight: 400;
+font-size: 15px;
+}
+a:hover {
+border-radius: 7px
+padding: 15px 20px;
+}
+
+p{ font-family:'Roboto', sans-serif}
+
+/*Custom design with class (99% of your design) */
+.container {
+width: 600px;
+margin: 20px auto;
+position: center;
+}
+
+.card-white {
+background-color: white;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+border-radius: 5px;
+margin: 30px 0px;
+text-align: center;
+}
+.Anaïs{
+	border-radius: 30px
+}
+
+.btn-blue {
+background: pink;
+color: white;
+padding: 15px 22px;
+border-radius: 15px;
+}
+.btn-blue:hover {
+background-color: lavenderblush;
+color: pink;
+font-size: 15px;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+
+}
+.list-inline li{
+display: inline;
+padding: 20px;
+}
+
+.list-inline i{
+font-size: 30px;
+color: black;
+}
+
+.list-inline i:hover {
+font-size: 30px;
+color: pink;
+}
+
+/* Design adjustments using id (1% design remaining) */
+#intro p {
+margin-bottom: 60px;
+}
